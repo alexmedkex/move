@@ -1,0 +1,22 @@
+{
+  "name": "ipfscomments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.7.2",
+    "ipfs": "^0.40.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
