@@ -6,10 +6,11 @@ function Header() {
   //const [greeting, setGreeting] = useState('Hello function component!')
 
   return (
-    <div className={classes.header}>
+    <div>
+      <div className={classes.header}></div>
       <div className={classes.textArea}>
-        <h1>Make Portugal your new home!</h1>
-      </div>
+          <h1>Lisbon immigraton services</h1>
+        </div>
     </div>
   )
 }

@@ -4,12 +4,9 @@ export const getStyle = () => {
     const props = {}
 
     return makeStyles(theme => ({
-        paper: {
-            padding: "5%",
-            justifyContent: 'center',
-            textAlign: 'center',
-            height: '150px',
-            fontSize: '16px'
+        text: {
+            fontSize: 20,
+            padding: "20px 0"
         }
     }))(props)
 }

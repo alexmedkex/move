@@ -7,24 +7,28 @@ export const getStyle = () => {
         root: {
             padding: 10,
             textAlign: 'center'
+
         },
         container: {
             justifyContent: "center",
             marginBottom: 40,
+            maxWidth: 800,
+            marginLeft: "auto",
+            marginRight: "auto"
         },
         item: {
             width: "20%",
             minWidth: "300px"
         },
         textArea: {
-            fontSize: '20px',
-            maxWidth: '400px',
+            maxWidth: 700,
             textAlign: 'center',
             display: 'inline-block',
             marginBottom: 40
         },
         text: {
             fontSize: 40,
+            fontWeight: 'bold',
             display: 'inline-block'
         }
     }))(props)
